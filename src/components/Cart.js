@@ -1,12 +1,12 @@
 import "../style/reset.css";
 import "../style/style.css";
 
-const Shop = () => {
+const Cart = () => {
   return (
     <div>
-      <h1>Shop</h1>
+      <h1>Cart</h1>
     </div>
   );
 };
 
-export default Shop;
+export default Cart;
