@@ -45,3 +45,24 @@ body {
 .sneaker-home {
   max-width: 33.3%;
 }
+
+.home-stmt {
+  white-space: pre;
+
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+
+  margin: 38px;
+}
+
+.home-cta {
+  text-align: center;
+  font-size: 52px;
+  font-weight: 600;
+}
+
+.home-cta a {
+  color: white;
+  text-decoration: none;
+}
