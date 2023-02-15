@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Nav from './Nav';
@@ -7,9 +7,11 @@ import Shop from './Shop';
 import Cart from './Cart';
 
 const RouteSwitch = () => {
+  const [cart, setCart] = useState([]);
+
   return (
     <BrowserRouter>
-      <Nav />
+      <Nav cart={cart} />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/shop' element={<Shop />} />
