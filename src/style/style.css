@@ -12,6 +12,9 @@ body {
   font-family: 'ramblaregular', Arial, Helvetica, sans-serif;
 }
 
+/*
+  NAV
+*/
 .logo {
   font-weight: 700;
   font-style: italic;
@@ -36,6 +39,10 @@ body {
   color: white;
   text-decoration: none;
 }
+
+/*
+  HOME
+*/
 
 .sneakers-row {
   display: flex;
@@ -65,4 +72,46 @@ body {
 .home-cta a {
   color: white;
   text-decoration: none;
+}
+
+/*
+  SHOP
+*/
+.shop-page {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.shop-intro {
+  margin: 20px 0;
+}
+
+.shop-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 18px;
+  
+  padding: 0 12px 0 0;
+}
+
+.item-cell {
+  display: grid;
+  grid-template-rows: 20fr 1fr 1fr 2fr 2fr;
+}
+
+.item-img {
+  max-height: 100%;
+  max-width: 100%;
+  background-color: white;
+}
+
+.item-brand {
+  margin-top: 6px;
+}
+
+.item-name,
+.item-price {
+  font-size: 14px;
+  font-weight: 100;
+  margin-top: 4px;
 }
