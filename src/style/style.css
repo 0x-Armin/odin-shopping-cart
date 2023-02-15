@@ -90,13 +90,14 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 18px;
+  row-gap: 24px;
   
   padding: 0 12px 0 0;
 }
 
 .item-cell {
   display: grid;
-  grid-template-rows: 20fr 1fr 1fr 2fr 2fr;
+  grid-template-rows: 16fr 1fr 1fr 1fr 1fr;
 }
 
 .item-img {
@@ -114,4 +115,34 @@ body {
   font-size: 14px;
   font-weight: 100;
   margin-top: 4px;
+}
+
+.add-to-cart-div {
+  margin-top: 4px;
+
+  display: flex;
+  justify-content: end;
+}
+
+.add-to-cart-input {
+  width: 50px;
+  margin-right: 2px;
+}
+
+.add-to-cart-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2px 12px;
+
+  background: black;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  color: #DFDEDF;
+
+  font-family: 'ramblaregular', Arial, Helvetica, sans-serif;
+}
+
+.add-to-cart-btn:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
 }

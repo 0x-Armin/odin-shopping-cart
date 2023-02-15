@@ -19,10 +19,14 @@ const Shop = ( {cart, setCart} ) => {
     ['Vans', 'SK8-Mid LX OG Sneakers White', 85.00, vansSk8White],
   ]
 
+  const getShopItems = () => { return shopItems; }
+
   const populateItemsToGrid = () => {
     const grid = document.querySelector('.shop-grid');
     
-    for (let item of shopItems) {
+    for (let i=0; i < shopItems.length; i++) {
+      const item = shopItems[i];
+
       const itemCell = document.createElement('div');
       itemCell.classList.add('item-cell');
 
@@ -39,13 +43,29 @@ const Shop = ( {cart, setCart} ) => {
       itemName.classList.add('item-name');
 
       const itemPrice = document.createElement('div');
-      itemPrice.innerText = `\S${item[2]} USD`;
+      itemPrice.innerText = `\$${item[2].toFixed(2)} USD`;
       itemPrice.classList.add('item-price');
+
+      const addToCartDiv = document.createElement('div');
+      addToCartDiv.classList.add('add-to-cart-div');
+      addToCartDiv.id = i;
+      const addToCartInput = document.createElement('input');
+      addToCartInput.classList.add('add-to-cart-input');
+      addToCartInput.type = 'number';
+      addToCartInput.min = "0";
+      addToCartInput.max = "10";
+      const addToCartBtn = document.createElement('button');
+      addToCartBtn.innerText = 'Add to cart';
+      addToCartBtn.classList.add('add-to-cart-btn');
+      
+      addToCartDiv.appendChild(addToCartInput);
+      addToCartDiv.appendChild(addToCartBtn);
 
       itemCell.appendChild(itemImg);
       itemCell.appendChild(itemBrand);
       itemCell.appendChild(itemName);
       itemCell.appendChild(itemPrice);
+      itemCell.appendChild(addToCartDiv);
 
       grid.appendChild(itemCell);
     }
