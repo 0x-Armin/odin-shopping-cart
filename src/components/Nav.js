@@ -1,5 +1,5 @@
-import React, { createFactory, useEffect, useState } from "react";
-import { Link, useSearchParams } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 import "../style/reset.css";
 import "../style/style.css";

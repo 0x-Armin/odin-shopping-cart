@@ -8,7 +8,7 @@ import asicsEx89 from "../img/shop/03_asics_ex89_grey.webp";
 import nb650r from "../img/shop/04_nb_650r_red.webp";
 import vansSk8White from "../img/shop/05_vans_sk8_white.webp";
 
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 
 const Shop = ({ cart, setCart }) => {
   const shopItems = [
@@ -19,10 +19,6 @@ const Shop = ({ cart, setCart }) => {
     ["New Balance", "650R Sneakers Black / Red", 150.0, nb650r],
     ["Vans", "SK8-Mid LX OG Sneakers White", 85.0, vansSk8White],
   ];
-
-  const getShopItems = () => {
-    return shopItems;
-  };
 
   const handleAddToCart = (e) => {
     const idx = e.target.id.substring(4);

@@ -12,7 +12,7 @@ const Home = () => {
 and your reputation renowned`;
 
   return (
-    <div>
+    <div className="home-page">
       <div className="sneakers-row">
         <img
           className="sneaker-home"
