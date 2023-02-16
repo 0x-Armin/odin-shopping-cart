@@ -1,18 +1,22 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { createFactory, useEffect, useState } from "react";
+import { Link, useSearchParams } from "react-router-dom";
 
 import "../style/reset.css";
 import "../style/style.css";
 
 const Nav = ({cart}) => {
-  const countCartItems = (cart) => {
-    let numItems = 0;
-    for (let i=0; i<cart.length; i++) {
-      numItems += cart[i][2];
-    }
+  const [numCartItems, setNumCartItems] = useState(0);
 
-    return numItems;
+  const countCartItems = (cart) => {
+    let sum = 0;
+    cart.forEach((v) => sum += v);
+
+    return sum;
   }
+
+  useEffect(() => {
+    setNumCartItems(countCartItems(cart));
+  }, [cart]);
 
   return (
     <nav className="navigation-bar">
@@ -25,7 +29,7 @@ const Nav = ({cart}) => {
           <li>Shop</li>
         </Link>
         <Link to="/cart">
-          <li>Cart ({countCartItems(cart)})</li>
+          <li>Cart ({numCartItems})</li>
         </Link>
       </ul>
     </nav>
