@@ -9,7 +9,7 @@ const Shop = ({ cart, setCart }) => {
     const idx = e.target.id.substring(4);
     let input = document.getElementById(`input-${idx}`).value;
 
-    if (input !== "") {
+    if (input !== "" && cart) {
       const updatedCart = new Map(
         JSON.parse(JSON.stringify(Array.from(cart)))
       );
