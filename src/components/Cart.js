@@ -116,6 +116,7 @@ const Cart = ({ cart }) => {
           <div>Sub-total</div>
         </div>
       </div>
+      <button class="check-out-btn">Check out</button>
     </div>
   );
 };
