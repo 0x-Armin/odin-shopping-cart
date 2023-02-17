@@ -20,7 +20,7 @@ const Nav = ({cart}) => {
 
   return (
     <nav className="navigation-bar">
-      <h3 className="logo">SNEAKERS UNDERGROUND</h3>
+      <h3 className="logo"><Link to='/'>SNEAKERS UNDERGROUND</Link></h3>
       <ul className="navigation-links">
         <Link to="/">
           <li>Home</li>

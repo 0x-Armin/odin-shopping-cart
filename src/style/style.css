@@ -35,10 +35,15 @@ body {
   background-color: black;
 }
 
-.logo {
+.logo a {
   font-weight: 700;
   font-style: italic;
   font-size: 22px;
+
+  text-decoration: none;
+  color: white;
+
+  padding-left: 8px;
 }
 
 .navigation-links {
