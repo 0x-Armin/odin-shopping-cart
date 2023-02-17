@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav component renders home page with sample sneakers 1`] = `
+<div>
+  <nav
+    class="navigation-bar"
+  >
+    <h3
+      class="logo"
+    >
+      <a
+        href="/"
+      >
+        SNEAKERS UNDERGROUND
+      </a>
+    </h3>
+    <ul
+      class="navigation-links"
+    >
+      <a
+        href="/"
+      >
+        <li>
+          Home
+        </li>
+      </a>
+      <a
+        href="/shop"
+      >
+        <li>
+          Shop
+        </li>
+      </a>
+      <a
+        href="/cart"
+      >
+        <li>
+          Cart (
+          0
+          )
+        </li>
+      </a>
+    </ul>
+  </nav>
+  <div
+    class="home-page"
+  >
+    <div
+      class="sneakers-row"
+    >
+      <img
+        alt="New Balance BB550 Sneaker"
+        class="sneaker-home"
+        src="newbalance-bb550.webp"
+      />
+      <img
+        alt="Reebok Classic Sneaker"
+        class="sneaker-home"
+        src="reebok-classic.webp"
+      />
+      <img
+        alt="Mizuno Waverider 10 Sneaker"
+        class="sneaker-home"
+        src="mizuno-waverider10.webp"
+      />
+    </div>
+    <div
+      class="home-stmt"
+    >
+      Build your sneakers playground
+and your reputation renowned
+    </div>
+    <div
+      class="home-cta"
+    >
+      Shop 
+      <u>
+        <a
+          href="/shop"
+        >
+          now
+        </a>
+      </u>
+    </div>
+  </div>
+</div>
+`;
