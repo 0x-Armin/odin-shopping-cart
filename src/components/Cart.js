@@ -97,7 +97,7 @@ const Cart = ({ cart }) => {
     };
 
     clearCartGrid();
-    populateCartToGrid(cart);
+    if (cart) populateCartToGrid(cart);
     addSumTotalRowToGrid();
   }, [cart, totalAmt]);
 

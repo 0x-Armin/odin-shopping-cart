@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart component renders default empty cart page 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="cart-page"
+      >
+        <div
+          class="cart-header"
+        >
+          Your shopping cart
+        </div>
+        <div
+          class="intro"
+        >
+          Now that you have checked these sneakers out, it's time to check out. 🛒
+        </div>
+        <div
+          class="cart-grid"
+        >
+          <div
+            class="cart-row"
+          >
+            <div>
+              Item
+            </div>
+            <div>
+              Brand/name
+            </div>
+            <div>
+              Price
+            </div>
+            <div>
+              Quantity
+            </div>
+            <div>
+              Sub-total
+            </div>
+          </div>
+          <div
+            class="cart-row"
+          >
+            <div />
+            <div />
+            <div />
+            <div />
+            <div />
+          </div>
+        </div>
+        <button
+          class="check-out-btn"
+        >
+          Check out
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="cart-page"
+    >
+      <div
+        class="cart-header"
+      >
+        Your shopping cart
+      </div>
+      <div
+        class="intro"
+      >
+        Now that you have checked these sneakers out, it's time to check out. 🛒
+      </div>
+      <div
+        class="cart-grid"
+      >
+        <div
+          class="cart-row"
+        >
+          <div>
+            Item
+          </div>
+          <div>
+            Brand/name
+          </div>
+          <div>
+            Price
+          </div>
+          <div>
+            Quantity
+          </div>
+          <div>
+            Sub-total
+          </div>
+        </div>
+        <div
+          class="cart-row"
+        >
+          <div />
+          <div />
+          <div />
+          <div />
+          <div />
+        </div>
+      </div>
+      <button
+        class="check-out-btn"
+      >
+        Check out
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
