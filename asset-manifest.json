@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/odin-shopping-cart/static/css/main.c4813a93.css",
+    "main.js": "/odin-shopping-cart/static/js/main.91556325.js",
+    "static/media/mizuno-waverider10.webp": "/odin-shopping-cart/static/media/mizuno-waverider10.c353a9416d7d72f15865.webp",
+    "static/media/00_nike_af1_black.webp": "/odin-shopping-cart/static/media/00_nike_af1_black.fc9aecbc5708f9f08093.webp",
+    "static/media/01_nike_af1_white.webp": "/odin-shopping-cart/static/media/01_nike_af1_white.6c2328b5f7671f53a7e2.webp",
+    "static/media/04_nb_650r_red.webp": "/odin-shopping-cart/static/media/04_nb_650r_red.0a5574e67fc80a1c641c.webp",
+    "static/media/newbalance-bb550.webp": "/odin-shopping-cart/static/media/newbalance-bb550.e90e64bc43eccd08203a.webp",
+    "static/media/02_converse_onestar_orange.webp": "/odin-shopping-cart/static/media/02_converse_onestar_orange.8cc6f37adf09b42983bd.webp",
+    "static/media/03_asics_ex89_grey.webp": "/odin-shopping-cart/static/media/03_asics_ex89_grey.6ec0f676719c31babf5a.webp",
+    "static/media/rambla-regular-webfont.woff": "/odin-shopping-cart/static/media/rambla-regular-webfont.60efa709520e82810989.woff",
+    "static/media/05_vans_sk8_white.webp": "/odin-shopping-cart/static/media/05_vans_sk8_white.5ad680bc2a7d132e60fa.webp",
+    "static/media/reebok-classic.webp": "/odin-shopping-cart/static/media/reebok-classic.a473553101e51925608e.webp",
+    "static/media/rambla-regular-webfont.woff2": "/odin-shopping-cart/static/media/rambla-regular-webfont.3cd85ffb0da8723a93a1.woff2",
+    "index.html": "/odin-shopping-cart/index.html",
+    "main.c4813a93.css.map": "/odin-shopping-cart/static/css/main.c4813a93.css.map",
+    "main.91556325.js.map": "/odin-shopping-cart/static/js/main.91556325.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4813a93.css",
+    "static/js/main.91556325.js"
+  ]
+}
