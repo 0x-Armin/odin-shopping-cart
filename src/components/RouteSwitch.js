@@ -13,9 +13,9 @@ const RouteSwitch = () => {
     <BrowserRouter>
       <Nav cart={cart} />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/shop' element={<Shop cart={cart} setCart={setCart} /> } />
-        <Route path='/cart' element={<Cart cart={cart} />} />
+        <Route path='/odin-shopping-cart/' element={<Home />} />
+        <Route path='/odin-shopping-cart/shop' element={<Shop cart={cart} setCart={setCart} /> } />
+        <Route path='/odin-shopping-cart/cart' element={<Cart cart={cart} />} />
       </Routes>
     </BrowserRouter>
   )
