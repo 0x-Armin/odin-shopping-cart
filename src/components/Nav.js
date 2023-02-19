@@ -22,13 +22,13 @@ const Nav = ({cart}) => {
     <nav className="navigation-bar">
       <h3 className="logo"><Link to='/'>SNEAKERS UNDERGROUND</Link></h3>
       <ul className="navigation-links">
-        <Link to="/">
+        <Link to="/odin-shopping-cart/">
           <li>Home</li>
         </Link>
-        <Link to="/shop">
+        <Link to="/odin-shopping-cart/shop">
           <li>Shop</li>
         </Link>
-        <Link to="/cart">
+        <Link to="/odin-shopping-cart/cart">
           <li>Cart ({numCartItems})</li>
         </Link>
       </ul>
