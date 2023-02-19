@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/odin-shopping-cart/static/css/main.c4813a93.css",
-    "main.js": "/odin-shopping-cart/static/js/main.91556325.js",
+    "main.js": "/odin-shopping-cart/static/js/main.e62de08f.js",
     "static/media/mizuno-waverider10.webp": "/odin-shopping-cart/static/media/mizuno-waverider10.c353a9416d7d72f15865.webp",
     "static/media/00_nike_af1_black.webp": "/odin-shopping-cart/static/media/00_nike_af1_black.fc9aecbc5708f9f08093.webp",
     "static/media/01_nike_af1_white.webp": "/odin-shopping-cart/static/media/01_nike_af1_white.6c2328b5f7671f53a7e2.webp",
@@ -15,10 +15,10 @@
     "static/media/rambla-regular-webfont.woff2": "/odin-shopping-cart/static/media/rambla-regular-webfont.3cd85ffb0da8723a93a1.woff2",
     "index.html": "/odin-shopping-cart/index.html",
     "main.c4813a93.css.map": "/odin-shopping-cart/static/css/main.c4813a93.css.map",
-    "main.91556325.js.map": "/odin-shopping-cart/static/js/main.91556325.js.map"
+    "main.e62de08f.js.map": "/odin-shopping-cart/static/js/main.e62de08f.js.map"
   },
   "entrypoints": [
     "static/css/main.c4813a93.css",
-    "static/js/main.91556325.js"
+    "static/js/main.e62de08f.js"
   ]
 }
